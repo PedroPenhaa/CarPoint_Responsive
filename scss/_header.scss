@@ -27,7 +27,6 @@ header{
         .navbar{
             display: flex;
             column-gap: 2rem;
-            ul{
                 li{
                     a{
                         color: var(--text-color);
@@ -40,12 +39,13 @@ header{
                         border-bottom: 3px solid var(--main-color);
                     }
                 }
-            }
         }
+    
         #search-icon{
             font-size: 24px;
             cursor: pointer;    
         }
+        
         .search-box{
             position: absolute;
             top: 110%;
@@ -55,7 +55,7 @@ header{
             box-shadow: 4px 4px 20px rgb(15, 54, 55 / 10%) ;
             border: 1px solide var(--main-color);
             border-radius: 0.5rem;
-            clip-path: circle(0% at 100% 0%);
+            clip-path: circle(0% at 100% 0%) ;
             input{
                 width: 100%;
                 padding: 20px;
@@ -64,9 +64,9 @@ header{
                 background: transparent;
                 font-size: 1rem;
             }
-            .active{
-                clip-path: circle(144% at 100% 0%);
-            }
+        }
+        .active{
+            clip-path: circle(144% at 100% 0%) ;
         }
     }
 }
