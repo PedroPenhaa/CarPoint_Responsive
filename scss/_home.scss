@@ -115,9 +115,16 @@
 
 .parts{
     .heading{
-
+        text-align: center;
+        span{
+            font-weight: 500;
+            color: var(--main-color);
+        }
+        p{
+            font-size: 0.938rem;
+            font-weight: 300;
+        }
     }
-
     .parts-container{
         display: flex;
         flex-wrap: wrap;
@@ -179,5 +186,24 @@
                 text-decoration: underline;
             }
         }
+    }
+}
+
+.blog{
+    .blog-container{
+        display: var(--main-color);
+        .heading{
+            text-align: center;
+            span{
+                font-weight: 500;
+                color: var(--main-color);
+            }
+            p{
+                font-size: 0.938rem;
+                font-weight: 300;
+            }
+        }
+
+
     }
 }
