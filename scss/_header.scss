@@ -1,6 +1,5 @@
 header{
     display: block;
-    background: var(--bg-color);
     width: 100%;
     position: fixed;
     top: 0;
@@ -49,7 +48,7 @@ header{
             transition: 0.5s;
         }
         #search-icon:hover{
-            scale: (1.1);
+            scale: (1.5);
         }
         
         .search-box{
@@ -75,6 +74,17 @@ header{
             clip-path: circle(144% at 100% 0%) ;
             transition: 0.4s;
         }
+    }
+}
+
+header.shadow{
+    background: var(--bg-color);
+    transition: 0.5s ease;
+    #search-icon{
+        font-size: 24px;
+        cursor: pointer;   
+        color: var(--text-color);
+        transition: 0.5s;
     }
 }
 

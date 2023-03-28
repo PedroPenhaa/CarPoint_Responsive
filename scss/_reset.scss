@@ -23,3 +23,15 @@ section{
     padding:  4rem 0 2rem;
 }
 
+/* Custom Scroll Bar*/
+
+html::-webkit-scrollbar{
+    width: 0.5rem;
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    border-radius: 5rem;
+    background: var(--text-color);
+}
+
