@@ -1,0 +1,35 @@
+.home{
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    background: url("../img/Background-home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    .home-text{
+        padding-left: 130px;
+        h1{
+            font-size: 2.4rem;
+            span{
+                color: var(--main-color);
+            }
+        }
+        p{
+           font-size: 0.938rem;
+           font-weight: 300;
+           margin: 0.5rem 0 1.2rem; 
+        }
+        .btn{
+            padding: 10px 22px;
+            background: var(--main-color);
+            color: var(--bg-color);
+            font-weight: 400;
+        }
+        .btn:hover{
+            background: #fd052f;
+        }
+    }
+}
