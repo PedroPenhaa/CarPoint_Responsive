@@ -27,9 +27,11 @@
             background: var(--main-color);
             color: var(--bg-color);
             font-weight: 400;
+            transition: 0.3s;
         }
         .btn:hover{
             background: #fd052f;
+            scale: (1.1);
         }
     }
 }
