@@ -10,7 +10,7 @@ const menu = document.querySelector('.navbar')
 const menuIcon = document.querySelector('#menu-icon')
 
 menuIcon.addEventListener('click', () => {
-    menu.classList.toggle('activeMenu')
+    menu.classList.toggle('active')
     searchBox.classList.remove('active')
 })
 
