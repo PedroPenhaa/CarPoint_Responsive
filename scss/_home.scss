@@ -292,18 +292,16 @@
 @media(max-width:768px){
     header{
         .nav{
+        
             padding: 10px 0 ;
-            .search-box{
-                input{
-                    padding: 15px ;
-                }
-            } 
+
             #menu-icon{
                 display: initial;
             }
-            
+
             .navbar{
                 position: absolute;
+                color: var(--text-color);
                 top: 100%;
                 right: 0;
                 left: 0;
@@ -320,18 +318,26 @@
                     padding: 15px;
 
                 }
-                a:hover{
+                a:hover, .active{
                     border-bottom: none;
                     background: var(--main-color);
                     color: var(--bg-color);
                 }
-               
+                         
             }
 
-                .active{
-                    clip-path: circle(144% at 0% 0%);
+            .search-box{
+                input{
+                    padding: 15px ;
                 }
-            
+            } 
+
+         /*   .active{
+                border-bottom: none;
+                background: var(--main-color);
+                color: var(--bg-color);
+            }
+            */
         }
     }
 }

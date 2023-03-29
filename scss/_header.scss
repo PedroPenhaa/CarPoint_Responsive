@@ -38,9 +38,13 @@ header{
                         color: var(--main-color);
                         border-bottom: 3px solid var(--main-color);
                     }
-                }
+            } 
+            .activeMenu{
+                clip-path: circle(144% at 100% 0%) ;
+                transition: 0.4s;
+            } 
         }
-    
+           
         #search-icon{
             font-size: 24px;
             cursor: pointer;   

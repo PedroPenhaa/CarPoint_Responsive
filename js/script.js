@@ -3,15 +3,15 @@ const searchIcon = document.querySelector('#search-icon')
 
 searchIcon.addEventListener('click', () => {
     searchBox.classList.toggle('active')
-    menu.classList.remove('active')
+    menu.classList.remove('activeMenu')
 })
 
 const menu = document.querySelector('.navbar')
 const menuIcon = document.querySelector('#menu-icon')
 
 menuIcon.addEventListener('click', () => {
-    menu.classList.toggle('.activeMenu')
-    searchBox.classList.remove('activeMenu')
+    menu.classList.toggle('activeMenu')
+    searchBox.classList.remove('active')
 })
 
 
