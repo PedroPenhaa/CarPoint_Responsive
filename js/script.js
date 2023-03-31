@@ -3,7 +3,7 @@ const searchIcon = document.querySelector('#search-icon')
 
 searchIcon.addEventListener('click', () => {
     searchBox.classList.toggle('active')
-    menu.classList.remove('activeMenu')
+    menu.classList.remove('active')
 })
 
 const menu = document.querySelector('.navbar')
@@ -14,7 +14,11 @@ menuIcon.addEventListener('click', () => {
     searchBox.classList.remove('active')
 })
 
-
+// Hide Menu And Search Box on Scroll
+window.onscroll = () => {
+    menu.classList.remove('active');
+    searchBox.classList.remove('active');
+}
 
 //Header
 let header = document.querySelector('header');

@@ -27,6 +27,7 @@ header{
         .navbar{
             display: flex;
             column-gap: 2rem;
+            ul{
                 li{
                     a{
                         color: var(--text-color);
@@ -39,6 +40,8 @@ header{
                         border-bottom: 3px solid var(--main-color);
                     }
             }    
+            }
+              
         }
 
 
